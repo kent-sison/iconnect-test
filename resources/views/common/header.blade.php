@@ -1,7 +1,7 @@
         <header id="main-header">
             <div class="container">
                 <div class="top-header clearfix">
-                    <h1 id="page-logo"><a href="/"><img src="/assets/img/iconnect-logo.png" alt="Page Logo"></a></h1>
+                    <h1 id="page-logo"><a href="/"><img src="{{ URL::to('/assets/img/iconnect-logo.png') }}" alt="Page Logo"></a></h1>
                     <ul class="primary-menu">
                         <!-- <li><a href="/">Home</a></li> -->
                         <li><a href="{{ route('home') }}"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a></li>
