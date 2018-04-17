@@ -11,40 +11,40 @@
     <link rel="favicon icon" href="/favicon.ico">
 
     <!-- Animate.css -->
-    <link rel="stylesheet" href="/assets/css/animate.css">        
+    <link rel="stylesheet" href="{{ URL::to('/assets/css/animate.css') }}">        
     <!-- Bootstrap  -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ URL::to('/assets/css/bootstrap.min.css') }}">
     <!-- Font Awesome  -->
-    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ URL::to('/assets/css/font-awesome.min.css') }}">
     <!-- Foobar  -->
-    <link rel="stylesheet" href="/assets/css/foobar.css">
+    <link rel="stylesheet" href="{{ URL::to('/assets/css/foobar.css') }}">
 
     <!-- Main Style  -->
-    <link rel="stylesheet" href="/assets/css/style.css?Tuesday 3rd of April 2018 06:19:57 AM">
+    <link rel="stylesheet" href="{{ URL::to('/assets/css/style.css?Tuesday 3rd of April 2018 06:19:57 AM') }}">
     <!-- iPhone7 Style  -->
-    <link rel="stylesheet" href="/assets/css/iphone7.css?Tuesday 3rd of April 2018 06:19:57 AM">
+    <link rel="stylesheet" href="{{ URL::to('/assets/css/iphone7.css?Tuesday 3rd of April 2018 06:19:57 AM') }}">
     <!-- iPhoneX Style  -->
-    <link rel="stylesheet" href="/assets/css/iphonex.css?Tuesday 3rd of April 2018 06:19:57 AM">
+    <link rel="stylesheet" href="{{ URL::to('/assets/css/iphonex.css?Tuesday 3rd of April 2018 06:19:57 AM') }}">
     <!-- Preorder  -->
-    <link rel="stylesheet" href="/assets/css/preorder.css?Tuesday 3rd of April 2018 06:19:57 AM">
+    <link rel="stylesheet" href="{{ URL::to('/assets/css/preorder.css?Tuesday 3rd of April 2018 06:19:57 AM') }}">
 
     <!-- Modernizr JS -->
-    <script src="/assets/js/modernizr-2.8.3.min.js"></script>
+    <script src="{{ URL::to('') }}/assets/js/modernizr-2.8.3.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/MonthPicker.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/reload.css">
+    <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/jquery-ui.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/MonthPicker.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/reload.css') }}">
 
-    <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="{{ URL::to('/assets/js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::to('/assets/js/jquery-ui.min.js') }}"></script>
     
     <!-- Izimodal Library-->
-    <link rel="stylesheet" href="/assets/css/iziModal.min.css">   
+    <link rel="stylesheet" href="{{ URL::to('/assets/css/iziModal.min.css') }}">   
     
-    <script src="/assets/js/foobar.js"></script>
+    <script src="{{ URL::to('/assets/js/foobar.js') }}"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script type="text/javascript" src="/assets/js/MonthPicker.js"></script>
-    <script type="text/javascript" src="/assets/js/js-webshim/minified/polyfiller.js"></script>
+    <script type="text/javascript" src="{{ URL::to('/assets/js/MonthPicker.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::to('/assets/js/js-webshim/minified/polyfiller.js') }}"></script>
     <script type="text/javascript" >
         webshim.setOptions('forms', {
             lazyCustomMessages: true,

@@ -80,7 +80,7 @@
 
     </div>
 
-    <script type="text/javascript" src="/assets/js/reload/reload.js"></script>
+    <script type="text/javascript" src="{{ URL::to('/assets/js/reload/reload.js') }"></script>
 
 </section>
 

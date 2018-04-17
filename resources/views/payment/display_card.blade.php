@@ -10,7 +10,7 @@ else {
     $x_s = 343; $y_s = 83;
     $x_p = 100; $y_p = 65;
 }
-$im = ImageCreateFromPNG('assets/img/reload/'.$image);
+$im = ImageCreateFromPNG(URL::to('assets/img/reload/').$image);
 $black = ImageColorAllocate($im, 0, 0, 0);
 $font = 'assets/fonts/Digit.ttf';
 ImageTTFText($im, 17, 0, $x_s, $y_s, $black, $font, $_GET['s']);

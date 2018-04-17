@@ -12,24 +12,25 @@
 
 <script src="{{ URL::to('/assets/js/bootstrap.min.js') }}"></script>
 <!-- Waypoints -->
-<script src="/assets/js/jquery.waypoints.min.js"></script>
+<script src="{{ URL::to('/assets/js/jquery.waypoints.min.js') }}"></script>
 <!-- Match Height -->
-<script src="/assets/js/jquery.matchHeight.js"></script>
+<script src="{{ URL::to('/assets/js/jquery.matchHeight.js') }}"></script>
 <!-- Validator -->
-<script src="/assets/js/validator.js"></script>
+<script src="{{ URL::to('/assets/js/validator.js') }}"></script>
 <!-- Contact -->
 <script src="/assets/js/contact.js"></script>
 <!-- Advanced Phones -->
-<script src="/assets/js/advanced-phones.js"></script>
+<script src="{{ URL::to('/assets/js/advanced-phones.js') }}"></script>
 <!-- Preorder -->
-<script src="/assets/js/preorder.js?Tuesday 3rd of April 2018 06:19:57 AM"></script>
+<script src="{{ URL::to('/assets/js/preorder.js?Tuesday 3rd of April 2018 06:19:57 AM') }} "></script>
 
 <!-- Main JS -->
-<script src="/assets/js/main.js?Tuesday 3rd of April 2018 06:19:57 AM"></script>
+<script src="{{ URL::to('/assets/js/main.js?Tuesday 3rd of April 2018 06:19:57 AM') }}"></script>
 
 
 <!-- IziModal JS -->
-<script src="/assets/js/iziModal.min.js" type="text/javascript"></script> 
+
+<script src="{{ URL::to('/assets/js/iziModal.min.js') }}" type="text/javascript"></script> 
 
 <script>
     window.intercomSettings = {
