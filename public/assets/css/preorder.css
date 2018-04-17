@@ -1,0 +1,190 @@
+.bg-black {
+    background: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-gray {
+    background: #eee;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.preorder-header {
+    font-size: 24px;
+}
+
+.preorder-mechanics {
+    padding-left: 30px;
+}
+
+.mechanics-item {
+    display: block;
+    margin-left: 25px;
+}
+
+.number {
+    width: 20px;
+    display: inline-block;
+    margin-left: -25px;
+}
+
+.preorder-button {
+    background: black;
+    color: white;
+}
+
+.preorder-button:hover {
+    color: #F69322;
+}
+
+.preorder-button:disabled:hover {
+    color: white;
+}
+
+#main_phone {
+    max-height: 600px;
+}
+
+#chosen_phone {
+    height: auto;    
+}
+
+#phone_select {
+    max-height: 300px;
+}
+
+.phone-selector-box {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.phone-selectors {
+    height: 30px;
+}
+
+.color-text {
+    position: relative;
+    top: -10px;
+}
+
+.memory-text {
+    position: relative;
+    top: 5px;
+}
+
+.memory {
+    font-style: italic;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.memory.selected {
+    color: #F69322;
+    font-weight: bold;
+    font-style: normal; 
+}
+
+.color {
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.silver {
+    background: #e2e2e0;
+}
+
+.gray {
+    background: #26242b;
+}
+
+.color.selected {
+    border: 2px solid #F69322;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.top-buffer { margin-top: 20px; }
+.bottom-buffer { margin-bottom: 20px; }
+
+.iconnect-logo {
+    max-width: 350px;
+    width: 100%;
+}
+
+.receipt-reminder {
+    background: white;
+    border: 1px solid #F69322;
+    padding: 10px;
+}
+
+.receipt-reminder span {
+    color: #F69322;
+}
+
+.float-right {
+    float: right;
+}
+
+.dashed {
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+}
+
+.receipt-header {
+    color: #aaa;
+    display: block;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.confirm-checkbox {
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 991px) {
+    .phone-selector-box {
+        text-align: center;
+    }
+    .memory-text {
+        margin-left: -38px;
+    }
+    .receipt-header {
+        display: inline-block;
+    }
+    .align-right {
+        text-align: left;
+    }
+    .receipt-value {
+        float: right;
+    }
+    #main_phone {
+        max-height: 400px;
+    }
+    .confirm-checkbox {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .preorder-header {
+        font-size: 18px;
+    }
+}

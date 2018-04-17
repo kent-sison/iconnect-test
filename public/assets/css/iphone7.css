@@ -1,0 +1,596 @@
+#main-container {
+  color: #ccc;
+  font-family: 'MYRIAD-Regular', sans-serif;
+}
+#main-container .iphone-table-container {
+  background: #fff;
+  color: #000;
+}
+#main-container .iphone-table-container .table tbody tr th {
+  vertical-align: middle;
+}
+#main-container .iphone-table-container .table tbody tr td {
+  vertical-align: middle;
+}
+#main-container .iphone-table-container thead img {
+  max-width: 160px;
+  margin-bottom: 20px;
+}
+#main-container .iphone-table-container .iphone-mobile {
+  height: 200px;
+  margin-top: 30px;
+}
+#main-container .iphone-table-container .iphone-mobile .iphone7plus,
+#main-container .iphone-table-container .iphone-mobile .iphone6splus {
+  height: 170px;
+}
+#main-container .iphone-table-container .iphone-mobile .iphone7,
+#main-container .iphone-table-container .iphone-mobile .iphone6s {
+  height: 140px;
+  position: relative;
+  top: 30px;
+}
+#main-container .iphone-table-container .mobile-name {
+  color: #000;
+  font-size: 20px;
+}
+#main-container .iphone-table-container .mobile-name span {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 0 3px;
+  margin: 0 2px;
+  vertical-align: text-top;
+  font-size: 15px;
+}
+#main-container .terms-container {
+  background-color: #fafafa;
+  color: #999;
+  font-size: 14px;
+  padding: 20px 0 10px;
+}
+#main-container .terms-container a {
+  color: #000;
+  text-decoration: none;
+}
+#main-container .terms-container a:hover {
+  color: #ccc;
+}
+#main-container .terms-container ol {
+  margin: 0 0 20px 20px;
+  padding: 0;
+}
+#main-container .terms-container ol li {
+  margin: 0;
+}
+#main-container .terms-container .copyright {
+  margin-left: 8px;
+}
+#main-container .headline-container h2 {
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: 0em;
+  margin: 0;
+}
+#main-container .headline-container h3 {
+  color: #fff;
+  font-size: 46px;
+  line-height: 1.07724;
+  letter-spacing: 0em;
+  margin: 15px 0;
+}
+#main-container .perks-container .perks {
+  display: inline-block;
+  text-align: center;
+  margin: 30px;
+  vertical-align: text-top;
+}
+#main-container .perks-container .perks img {
+  margin-bottom: 10px;
+}
+#main-container .iphone-container #iphone7mobile {
+  position: relative;
+  height: 500px;
+}
+#main-container .iphone-container #iphone7mobile .scroll-effect {
+  position: absolute;
+  width: 100%;
+}
+#main-container .iphone-container.black {
+  background: #000;
+}
+#main-container .iphone-container.gray {
+  background: #121212;
+}
+#main-container .iphone-container.space-top {
+  padding: 80px 0 0px;
+}
+#main-container .iphone-container.first-content {
+  padding: 60px 0;
+}
+#main-container .iphone-container.other-content {
+  padding: 80px 0 40px;
+}
+#main-container .iphone-container .iphone7-title img {
+  max-height: 40px;
+}
+#main-container .iphone-container.wifi {
+  position: relative;
+}
+#main-container .iphone-container.wifi .perks-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 40px;
+}
+#main-container .iphone-container .container-image.blur-effect:after {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(280deg, transparent 0%, transparent 45%, #000000 70%, #000000 100%);
+  background: linear-gradient(170deg, transparent 0%, transparent 45%, #000000 70%, #000000 100%);
+}
+#main-container .iphone-container .container-image img.pp1-img1 {
+  max-height: 500px;
+  margin: 15px 0 30px;
+}
+#main-container .iphone-container .container-image img.pp2-img1 {
+  max-height: 344px;
+}
+#main-container .iphone-container .container-image img.pp2-img2 {
+  max-height: 544px;
+  margin-top: 30px;
+}
+#main-container .iphone-container .container-image img.pp2-img3 {
+  max-height: 500px;
+  margin: 15px 0 0;
+}
+#main-container .iphone-container .container-image img.pp3-img1 {
+  max-height: 500px;
+  margin-top: 30px;
+}
+#main-container .iphone-container .container-image img.pp3-img2 {
+  max-height: 284px;
+  margin: 30px 0;
+}
+#main-container .iphone-container .container-image img.pp3-img3 {
+  max-height: 700px;
+}
+#main-container .iphone-container .container-image img.pp4-img1 {
+  max-height: 500px;
+  margin: 30px 0 50px;
+}
+#main-container .iphone-container .desc-intro {
+  font-size: 24px;
+  line-height: 1.33349;
+  font-weight: 300;
+  letter-spacing: 0em;
+}
+#main-container .iphone-container .buynow-container {
+  margin: 60px 0 0;
+}
+#main-container .iphone-container .buynow-container .buynow-title {
+  font-size: 22px;
+  color: #fff;
+  margin: 30px 0 15px;
+}
+#main-container .iphone-container .buynow-container .buynow-button {
+  font-size: 14px;
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+#main-container .iphone-container .buynow-container .buynow-button:hover {
+  color: #fff;
+  border: 1px solid #fff;
+}
+#main-container .container-wholebg.splash {
+  background: url('../img/iphone/PP1_Img2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 60px 0 400px;
+}
+#main-container .container-compare {
+  background: #fff;
+  padding: 60px 0;
+}
+#main-container .container-compare .headline-compare {
+  color: #000;
+}
+#main-container .container-compare .headline-compare h2 {
+  margin: 0;
+  font-size: 30px;
+}
+#main-container .container-compare .headline-compare h3 {
+  margin: 15px 0 20px;
+  font-size: 18px;
+}
+#main-container .container-compare .headline-compare .button-compare {
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 6px 24px;
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+}
+#main-container .container-compare .headline-compare .button-compare:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(153, 153, 153, 0.5);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+#main-container .container-compare .headline-compare .button-compare:hover:after {
+  width: 120%;
+  background-color: rgba(153, 153, 153, 0);
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+#main-container .container-compare .iphone-mobile-container {
+  margin-top: 10px;
+}
+#main-container .container-compare .iphone-mobile-container .iphone-mobile {
+  height: 200px;
+  margin-top: 30px;
+}
+#main-container .container-compare .iphone-mobile-container .iphone-mobile .iphone7plus,
+#main-container .container-compare .iphone-mobile-container .iphone-mobile .iphone6splus {
+  height: 170px;
+}
+#main-container .container-compare .iphone-mobile-container .iphone-mobile .iphone7,
+#main-container .container-compare .iphone-mobile-container .iphone-mobile .iphone6s {
+  height: 140px;
+  position: relative;
+  top: 30px;
+}
+#main-container .container-compare .iphone-mobile-container .mobile-name {
+  color: #000;
+  font-size: 20px;
+}
+#main-container .container-compare .iphone-mobile-container .mobile-name span {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 0 3px;
+  margin: 0 2px;
+  vertical-align: text-top;
+  font-size: 15px;
+}
+.support-container {
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+.support-container h1 {
+  color: #000;
+  font-size: 25px;
+  margin: 0;
+  padding: 20px 0 0;
+}
+.support-container h2 {
+  color: #F69322;
+  font-size: 20px;
+  margin: 0;
+  padding: 0 0 15px;
+}
+.support-container hr {
+  margin: 15px 0;
+}
+.support-container .support-banner-container .support-banner-link {
+  margin: 0 0 30px;
+}
+.support-container .support-banner-container img {
+  width: 100%;
+  opacity: 1;
+  border: 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.support-container .support-banner-container img:hover {
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+}
+.support-container .support-info-container {
+  padding: 15px 0;
+}
+.support-container .support-info-container a {
+  color: #777;
+}
+.support-container .support-info-container a:hover {
+  color: #F69322;
+  outline: none;
+  text-decoration: none;
+}
+.support-container .support-info-container .link-icon {
+  float: left;
+  margin-right: 15px;
+  border: 2px solid #F69322;
+  border-radius: 50%;
+  padding: 15px 10px;
+}
+.support-container .support-info-container .link-icon .fa {
+  vertical-align: middle;
+  color: #F69322;
+}
+.support-container .support-info-container .support-info-links {
+  display: inline-block;
+  margin-top: 15px;
+}
+.support-container .support-info-container .support-info-links .link-head {
+  color: #F69322;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+@media screen and (max-width: 420px) {
+  #main-container .headline-container h2 {
+    font-size: 20px;
+  }
+  #main-container .headline-container h3 {
+    font-size: 30px;
+  }
+  #main-container .perks-container .perks {
+    margin: 15px;
+  }
+  #main-container .perks-container .perks img {
+    margin-bottom: 5px;
+  }
+  #main-container .iphone-container #iphone7mobile {
+    position: relative;
+    height: 300px;
+  }
+  #main-container .iphone-container.space-top {
+    padding: 40px 0 0px;
+  }
+  #main-container .iphone-container.first-content {
+    padding: 30px 0;
+  }
+  #main-container .iphone-container.other-content {
+    padding: 40px 0 20px;
+  }
+  #main-container .iphone-container .iphone7-title img {
+    max-height: 30px;
+  }
+  #main-container .iphone-container.wifi .perks-container {
+    margin-bottom: 10px;
+  }
+  #main-container .iphone-container .container-image img.pp1-img1 {
+    max-height: 300px;
+    margin: 15px 0 30px;
+  }
+  #main-container .iphone-container .container-image img.pp2-img1 {
+    max-height: 130px;
+  }
+  #main-container .iphone-container .container-image img.pp2-img2 {
+    max-height: 300px;
+    margin-top: 30px;
+  }
+  #main-container .iphone-container .container-image img.pp2-img3 {
+    max-height: 200px;
+    margin: 15px 0 0;
+  }
+  #main-container .iphone-container .container-image img.pp3-img1 {
+    max-height: 400px;
+    margin-top: 30px;
+  }
+  #main-container .iphone-container .container-image img.pp3-img2 {
+    max-height: 180px;
+    margin: 30px 0;
+  }
+  #main-container .iphone-container .container-image img.pp3-img3 {
+    max-height: 300px;
+  }
+  #main-container .iphone-container .container-image img.pp4-img1 {
+    max-height: 180px;
+    margin: 30px 0 30px;
+  }
+  #main-container .iphone-container .desc-intro {
+    font-size: 20px;
+    text-align: justify;
+  }
+  #main-container .iphone-container .buynow-container {
+    margin: 30px 0 0;
+  }
+  #main-container .iphone-container .buynow-container .buynow-title {
+    margin: 30px 0 10px;
+  }
+  #main-container .container-wholebg.splash {
+    padding: 40px 0 300px;
+  }
+  .support-container .support-info-container .link-icon {
+    display: inline-block;
+    float: none;
+    padding: 15px 10px;
+  }
+  .support-container .support-info-container .support-info-links {
+    display: block;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 767px) {
+  #main-container .headline-container h2 {
+    font-size: 24px;
+  }
+  #main-container .headline-container h3 {
+    font-size: 46px;
+  }
+  #main-container .perks-container .perks {
+    margin: 30px;
+  }
+  #main-container .perks-container .perks img {
+    margin-bottom: 10px;
+  }
+  #main-container .iphone-container #iphone7mobile {
+    position: relative;
+    height: 400px;
+  }
+  #main-container .iphone-container.space-top {
+    padding: 80px 0 0px;
+  }
+  #main-container .iphone-container.first-content {
+    padding: 60px 0;
+  }
+  #main-container .iphone-container.other-content {
+    padding: 80px 0 40px;
+  }
+  #main-container .iphone-container .iphone7-title img {
+    max-height: 40px;
+  }
+  #main-container .iphone-container.wifi .perks-container {
+    margin-bottom: 40px;
+  }
+  #main-container .iphone-container .container-image img.pp1-img1 {
+    max-height: 400px;
+    margin: 15px 0 30px;
+  }
+  #main-container .iphone-container .container-image img.pp2-img1 {
+    max-height: 220px;
+  }
+  #main-container .iphone-container .container-image img.pp2-img2 {
+    max-height: 400px;
+    margin-top: 30px;
+  }
+  #main-container .iphone-container .container-image img.pp2-img3 {
+    max-height: 300px;
+    margin: 15px 0 0;
+  }
+  #main-container .iphone-container .container-image img.pp3-img1 {
+    max-height: 400px;
+    margin-top: 30px;
+  }
+  #main-container .iphone-container .container-image img.pp3-img2 {
+    max-height: 250px;
+    margin: 30px 0;
+  }
+  #main-container .iphone-container .container-image img.pp3-img3 {
+    max-height: 450px;
+  }
+  #main-container .iphone-container .container-image img.pp4-img1 {
+    max-height: 250px;
+    margin: 30px 0 30px;
+  }
+  #main-container .iphone-container .desc-intro {
+    font-size: 22px;
+    text-align: justify;
+  }
+  #main-container .iphone-container .buynow-container {
+    margin: 60px 0 0;
+  }
+  #main-container .iphone-container .buynow-container .buynow-title {
+    margin: 30px 0 15px;
+  }
+  #main-container .container-wholebg.splash {
+    padding: 60px 0 400px;
+  }
+  .support-container .support-info-container .link-icon {
+    display: inline-block;
+    float: none;
+    padding: 15px 10px;
+  }
+  .support-container .support-info-container .support-info-links {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #main-container .headline-container h2 {
+    font-size: 24px;
+  }
+  #main-container .headline-container h3 {
+    font-size: 46px;
+  }
+  #main-container .perks-container .perks {
+    margin: 30px;
+  }
+  #main-container .perks-container .perks img {
+    margin-bottom: 10px;
+  }
+  #main-container .iphone-container #iphone7mobile {
+    position: relative;
+    height: 450px;
+  }
+  #main-container .iphone-container.space-top {
+    padding: 80px 0 0px;
+  }
+  #main-container .iphone-container.first-content {
+    padding: 60px 0;
+  }
+  #main-container .iphone-container.other-content {
+    padding: 80px 0 40px;
+  }
+  #main-container .iphone-container .iphone7-title img {
+    max-height: 40px;
+  }
+  #main-container .iphone-container.wifi .perks-container {
+    margin-bottom: 40px;
+  }
+  #main-container .iphone-container .container-image img.pp1-img1 {
+    max-height: 450px;
+    margin: 15px 0 30px;
+  }
+  #main-container .iphone-container .container-image img.pp2-img1 {
+    max-height: 250px;
+  }
+  #main-container .iphone-container .container-image img.pp2-img2 {
+    max-height: 500px;
+    margin-top: 30px;
+  }
+  #main-container .iphone-container .container-image img.pp2-img3 {
+    max-height: 350px;
+    margin: 15px 0 0;
+  }
+  #main-container .iphone-container .container-image img.pp3-img1 {
+    max-height: 450px;
+    margin-top: 30px;
+  }
+  #main-container .iphone-container .container-image img.pp3-img2 {
+    max-height: 280px;
+    margin: 30px 0;
+  }
+  #main-container .iphone-container .container-image img.pp3-img3 {
+    max-height: 500px;
+  }
+  #main-container .iphone-container .container-image img.pp4-img1 {
+    max-height: 350px;
+    margin: 30px 0 30px;
+  }
+  #main-container .iphone-container .desc-intro {
+    font-size: 22px;
+    text-align: justify;
+  }
+  #main-container .iphone-container .buynow-container {
+    margin: 60px 0 0;
+  }
+  #main-container .iphone-container .buynow-container .buynow-title {
+    margin: 30px 0 15px;
+  }
+  #main-container .container-wholebg.splash {
+    padding: 60px 0 400px;
+  }
+}
+@-moz-document url-prefix() {
+  fieldset {
+    display: table-cell;
+  }
+}
+@font-face {
+  font-family: 'MYRIAD-Regular';
+  src: url('../fonts/MYRIADAT.TTF');
+}
